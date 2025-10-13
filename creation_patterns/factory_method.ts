@@ -35,7 +35,7 @@ class ConcreteCreator1 extends Creator {
 
 class ConcreteCreator2 extends Creator {
   public factoryMethod(): Product {
-    return new ConcreteProduct1();
+    return new ConcreteProduct2();
   }
 }
 
