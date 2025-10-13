@@ -37,6 +37,7 @@ class Prototype {
     const clone = Object.create(this);
 
     clone.component = Object.create(this.component);
+    // clone.component = this.component;
 
     clone.circularReference = new ComponentWithBackReference(clone);
 
